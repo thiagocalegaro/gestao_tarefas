@@ -109,6 +109,9 @@ public class TarefaController {
     public void vincularTarefaAoFuncionario(@RequestBody Funcionario funcionario, @RequestParam Long tarefa) {
         this.tarefaService.vincularTarefaAoFuncionario(tarefa, funcionario);
     }
+    public void lista(){
+        this.tarefaService.listar();
+    }
 
 
 }
