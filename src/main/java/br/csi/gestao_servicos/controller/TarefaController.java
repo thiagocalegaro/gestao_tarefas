@@ -13,7 +13,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-//testando
+
 @RestController
 @RequestMapping("/tarefa")
 @Tag(name = "tarefas", description = "Path relacionado a operações de tarefas")
@@ -109,9 +109,7 @@ public class TarefaController {
     public void vincularTarefaAoFuncionario(@RequestBody Funcionario funcionario, @RequestParam Long tarefa) {
         this.tarefaService.vincularTarefaAoFuncionario(tarefa, funcionario);
     }
-    public void lista(){
-        this.tarefaService.listar();
-    }
+
 
 
 }
