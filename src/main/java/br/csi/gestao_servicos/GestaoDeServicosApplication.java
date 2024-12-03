@@ -1,7 +1,7 @@
 package br.csi.gestao_servicos;
 
-import br.csi.gestao_servicos.model.Funcionario.FuncionarioRepository;
-import br.csi.gestao_servicos.model.Tarefa.TarefaRepository;
+import br.csi.gestao_servicos.model.funcionario.FuncionarioRepository;
+import br.csi.gestao_servicos.model.tarefa.TarefaRepository;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Contact;
 import io.swagger.v3.oas.annotations.info.Info;

@@ -1,7 +1,7 @@
 package br.csi.gestao_servicos.controller;
 
-import br.csi.gestao_servicos.model.Funcionario.Funcionario;
-import br.csi.gestao_servicos.model.Tarefa.Tarefa;
+import br.csi.gestao_servicos.model.funcionario.Funcionario;
+import br.csi.gestao_servicos.model.tarefa.Tarefa;
 import br.csi.gestao_servicos.service.TarefaService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;

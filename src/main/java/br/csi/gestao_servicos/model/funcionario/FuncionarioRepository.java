@@ -1,4 +1,4 @@
-package br.csi.gestao_servicos.model.Funcionario;
+package br.csi.gestao_servicos.model.funcionario;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

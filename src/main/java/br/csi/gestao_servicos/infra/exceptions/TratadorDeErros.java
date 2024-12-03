@@ -1,4 +1,4 @@
-package br.csi.gestao_servicos.infra;
+package br.csi.gestao_servicos.infra.exceptions;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

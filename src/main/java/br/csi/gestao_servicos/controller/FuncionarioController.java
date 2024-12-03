@@ -1,6 +1,6 @@
 package br.csi.gestao_servicos.controller;
 
-import br.csi.gestao_servicos.model.Funcionario.Funcionario;
+import br.csi.gestao_servicos.model.funcionario.Funcionario;
 import br.csi.gestao_servicos.service.FuncionarioService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;

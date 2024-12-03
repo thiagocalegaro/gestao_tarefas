@@ -1,7 +1,7 @@
 package br.csi.gestao_servicos.service;
 
-import br.csi.gestao_servicos.model.Funcionario.Funcionario;
-import br.csi.gestao_servicos.model.Funcionario.FuncionarioRepository;
+import br.csi.gestao_servicos.model.funcionario.Funcionario;
+import br.csi.gestao_servicos.model.funcionario.FuncionarioRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

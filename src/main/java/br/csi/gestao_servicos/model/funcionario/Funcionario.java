@@ -1,8 +1,6 @@
-package br.csi.gestao_servicos.model.Funcionario;
+package br.csi.gestao_servicos.model.funcionario;
 
-import br.csi.gestao_servicos.model.Tarefa.Tarefa;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import br.csi.gestao_servicos.model.tarefa.Tarefa;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
